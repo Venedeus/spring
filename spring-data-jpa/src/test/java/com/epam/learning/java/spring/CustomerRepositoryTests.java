@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-package com.epam.learning.java.spring.classes;
+package com.epam.learning.java.spring;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.List;
 
-import com.epam.learning.java.spring.classes.Customer;
-import com.epam.learning.java.spring.classes.CustomerRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

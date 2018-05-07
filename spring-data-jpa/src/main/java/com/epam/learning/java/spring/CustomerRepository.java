@@ -1,4 +1,4 @@
-package com.epam.learning.java.spring.classes;
+package com.epam.learning.java.spring;
 
 import org.springframework.data.repository.CrudRepository;
 

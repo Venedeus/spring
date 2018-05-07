@@ -1,4 +1,4 @@
-package com.epam.learning.java.spring.classes;
+package com.epam.learning.java.spring;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

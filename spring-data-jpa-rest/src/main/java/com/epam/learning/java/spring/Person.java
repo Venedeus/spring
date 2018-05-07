@@ -1,4 +1,4 @@
-package com.epam.learning.java.spring.classes;
+package com.epam.learning.java.spring;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,29 +6,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Customer {
-    private static final String TO_STRING = "Customer: id = %d, firstName = %s, lastName = s%";
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private long id;
     private String firstName;
     private String lastName;
-
-    protected Customer() {
-    }
-
-    public Customer(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getFirstName() {
         return firstName;
@@ -48,7 +31,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Person{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
