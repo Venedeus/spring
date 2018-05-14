@@ -20,6 +20,7 @@
         <module>spring-data-jpa-rest</module>
         <module>spring-data-mysql</module>
         <module>spring-mvc-simple</module>
+        <module>spring-mvc-rest</module>
     </modules>
 
     <properties>
